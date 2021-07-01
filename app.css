@@ -1,0 +1,61 @@
+/* using existing css as is from the react app */
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.gallery-row {
+    font-size: 1rem;
+    font-family: "Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 -5px;
+}
+.gallery-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.gallery-4-columns {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.gallery-holder, 
+.gallery-holder * {
+    position: relative;
+}
+.gallery-div {
+    max-width: 100%;
+    height: 18px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.gallery-button {
+    height: 35px;
+    padding: 5px 2px 0;
+    font-size: 15px;
+    background-color: #245683;
+    color: #fff;
+    width: 100%;
+    border: groove;
+    border-width: 2px;
+    font-weight: 700;
+    line-height: normal;
+}
+.gallery-card {
+    box-shadow: 2px 3px 4px 5px rgba(0,0,0,.2);
+    padding: 10px;
+    text-align: center;
+    height: 100%;
+    background-color: #fff;
+}
