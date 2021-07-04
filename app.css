@@ -1,61 +1,75 @@
 /* using existing css as is from the react app */
 body {
-    margin: 0;
+  margin: 0;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .gallery-row {
-    font-size: 1rem;
-    font-family: "Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    -webkit-font-smoothing: antialiased;
-    box-sizing: border-box;
-    position: relative;
-    margin: 0 -5px;
+  font-size: 1rem;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 -5px;
 }
 .gallery-row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
-
 
 .gallery-4-columns {
-    float: left;
-    width: 25%;
-    padding: 5px;
+  float: left;
+  width: 25%;
+  padding: 5px;
 }
-.gallery-holder, 
+.gallery-holder,
 .gallery-holder * {
-    position: relative;
+  position: relative;
 }
 .gallery-div {
-    max-width: 100%;
-    height: 18px;
-    margin-top: 8px;
-    margin-bottom: 2px;
-    font-size: 12px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  max-width: 100%;
+  height: 18px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .gallery-button {
-    height: 35px;
-    padding: 5px 2px 0;
-    font-size: 15px;
-    background-color: #245683;
-    color: #fff;
-    width: 100%;
-    border: groove;
-    border-width: 2px;
-    font-weight: 700;
-    line-height: normal;
+  height: 35px;
+  padding: 5px 2px 0;
+  font-size: 15px;
+  background-color: #245683;
+  color: #fff;
+  width: 100%;
+  border: groove;
+  border-width: 2px;
+  font-weight: 700;
+  line-height: normal;
 }
 .gallery-card {
-    box-shadow: 2px 3px 4px 5px rgba(0,0,0,.2);
-    padding: 10px;
-    text-align: center;
-    height: 100%;
-    background-color: #fff;
+  box-shadow: 2px 3px 4px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+  background-color: #fff;
 }
+
+/* .viewport {
+  background-color: "#333";
+  position: "absolute";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: "100vh";
+  max-height: "100vh";
+  width: "100vw";
+  max-width: "100vw";
+  padding: "4vmax";
+} */

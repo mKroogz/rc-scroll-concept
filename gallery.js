@@ -1,5 +1,5 @@
 
-function Gallery() {
+const Gallery = () => {
 
     return (
         <div className="gallery-row">        
@@ -24,4 +24,5 @@ function Gallery() {
 
         </div>
     );
-}
+};
+// export default Gallery;
