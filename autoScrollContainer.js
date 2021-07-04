@@ -59,24 +59,6 @@ const AutoScrollContainer = props => {
 
   useEffect(() => {
       loadLinearMovement();
-    //   setContentStyle((prevState) => ({
-    //       ...prevState,
-    //       top: `-${page.contentTop}px`,
-    //       left: `-${page.contentLeft}px`,
-    //       transitionDelay: `${props.scroll.delay}ms`,
-    //       transitionDuration: `${props.scroll.speed}ms`,
-    //       transitionTimingFunction: `${props.scroll.movement}`
-    //   }));
-      
-      
-      // the transition events are used to determine when the scrolling animation
-      // has ended so we don't need to deal with complicated timing math
-      //
-    //   content.current.addEventListener("transitioncancel", scrollStart);
-    //   content.current.addEventListener("transitionend", scrollStart);
-  
-    //   scrollStart();
-    //   console.log(content);
   }, []);
 
   useEffect(() => {

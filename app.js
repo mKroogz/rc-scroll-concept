@@ -1,8 +1,5 @@
 "use strict";
 const useState = React.useState;
-// import Gallery from "./gallery";
-// import AutoScrollContainer from "./autoScrollContainer";
-// import Viewport from "./viewport";
 
 const App = () => {
   const [scroll, setScroll] = useState({
